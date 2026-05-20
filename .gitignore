@@ -8,4 +8,4 @@ build/
 *.a
 .DS_Store
 *.bin
-*.elf
+include/config.h
