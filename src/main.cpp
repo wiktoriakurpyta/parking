@@ -251,7 +251,7 @@ void setup() {
   oledEkranGlowny();
 
   // Konfiguracja BLE na czystej pamieci
-  BLEDevice::init("Parking_Wika");
+  BLEDevice::init("SmartParking_IOT");
   BLEServer *pServer = BLEDevice::createServer();
   BLEService *pService = pServer->createService(SERVICE_UUID);
   BLECharacteristic *pCharacteristic = pService->createCharacteristic(
